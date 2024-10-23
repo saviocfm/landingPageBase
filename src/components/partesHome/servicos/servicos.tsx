@@ -3,7 +3,6 @@ import { pageConfig } from "../../../pageConfig"
 export default function Servicos(){
     const servicos = []
     for(let i in pageConfig.conteudo.servicos.servicos){
-        console.log(pageConfig.conteudo.servicos.servicos[i])
         servicos.push(
             <div className="">
                 <span className="fa-stack fa-4x">
