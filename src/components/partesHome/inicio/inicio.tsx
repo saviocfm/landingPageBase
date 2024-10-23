@@ -22,7 +22,7 @@ export default function Inicio() {
                     </div>
                 </div>
             </nav>
-            <header className="masthead" style={backgroundImage: `url(${fundoImage})`}>
+            <header className="masthead" style={{backgroundImage: `url(${capa})`}}>
                 <div className="container">
                     <div className="masthead-subheading">Bem vindo a Hf Detailing!</div>
                     <a
