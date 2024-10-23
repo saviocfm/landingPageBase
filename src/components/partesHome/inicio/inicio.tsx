@@ -1,5 +1,4 @@
 import { pageConfig } from "../../../pageConfig"
-import capa from "../../../../public/capa.png"
 export default function Inicio() {
     const conteudo = pageConfig.conteudo.inicio
 
@@ -22,7 +21,7 @@ export default function Inicio() {
                     </div>
                 </div>
             </nav>
-            <header className="masthead" background-image={capa}>
+            <header className="masthead">
                 <div className="container">
                     <div className="masthead-subheading">Bem vindo a Hf Detailing!</div>
                     <a
